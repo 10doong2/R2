@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1f1e8"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="탈래?"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drawing"
+        android:layout_marginLeft="20dp"
+
+        android:background="#698df7"
+        android:textColor="#fff"
+        android:id="@+id/btnCreatePlayRoom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:id="@+id/btnCreatePlayGroup"
+        android:background="#f77869"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/listView"
+        />
+
+</LinearLayout>

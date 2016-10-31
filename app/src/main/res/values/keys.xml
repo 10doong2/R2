@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- More details here: https://www.firebase.com/docs/android/guide/login/facebook.html -->
+    <string name="firebase_url">https://r2beta.firebaseio.com</string>
+
+    <!-- Your Facebook App ID from your app settings on https://developers.facebook.com/ -->
+    <string name="facebook_app_id">243305022702661</string>
+
+    <!-- Your Twitter consumer key and secret from your app settings on https://apps.twitter.com/ -->
+    <!-- More details here: https://www.firebase.com/docs/android/guide/login/twitter.html -->
+    <string name="twitter_consumer_key">31juBCALBCGEl5y5IblGT467a</string>
+    <string name="twitter_consumer_secret">BbZwenLXHs7fhiybk5DmGIPERhCBTdPUvSzJaFnU0I9OYi2GdI</string>
+
+</resources>

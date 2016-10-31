@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1f1e8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="통계"
+            android:textColor="#2b4b81"
+            android:layout_marginTop="20dp"
+            android:textSize="40dp"
+            android:gravity="center_horizontal"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="라이딩 시작 시간 : "
+                android:textColor="#1f7fb3"
+                android:textSize="20dp"
+                android:layout_weight="0.22"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#ff2977"
+                android:id="@+id/tv_start_time"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textColor="#1f7fb3"
+                android:text="라이딩 종료 시간 : "
+                android:textSize="20dp"
+                android:layout_weight="0.22"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#ff2977"
+                android:id="@+id/tv_end_time"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="총 라이딩 시간 : "
+                android:textColor="#1f7fb3"
+                android:textSize="20dp"
+                android:layout_weight="0.29"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#ff2977"
+                android:id="@+id/tv_total_time"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="총 라이딩 거리 : "
+                android:textColor="#1f7fb3"
+                android:textSize="20dp"
+                android:layout_weight="0.24"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#ff2977"
+                android:id="@+id/tv_distance"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:weightSum="1"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="평균 속도 : "
+                android:textColor="#1f7fb3"
+                android:textSize="20dp"
+                android:layout_weight="0.22"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#ff2977"
+                android:id="@+id/tv_speed"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

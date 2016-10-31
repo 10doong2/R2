@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Fit color -->
+    <color name="default_back_color">@android:color/transparent</color>
+    <color name="default_back_stroke_color">#f0f0f0</color>
+    <color name="default_chart_value_color">#ff3d00</color>
+
+    <color name="chart_value_1">#e93310</color>
+    <color name="chart_value_2">#f4624f</color>
+    <color name="chart_value_3">#ef8d84</color>
+    <color name="chart_value_4">#f7d1cf</color>
+    <color name="chart_value_5">#f2f0f0</color>
+</resources>
